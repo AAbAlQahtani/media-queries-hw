@@ -168,17 +168,13 @@ body {
     margin-bottom: 2%;
     margin-top: 2%;
     gap: 2%;
-
-
-
-
 }
 
 .item-pic {
     /* height: ; */
     /* width: ; */
     max-width: 100%;
-
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 
 }
 
@@ -342,3 +338,175 @@ hr {
     width: 95%;
 
 }
+
+
+/* ------------------------ */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .item-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 2%;
+    }
+
+
+
+    .item {
+        width: 80vw;
+        height: 80vh;
+
+    }
+
+    .item h5 {
+
+        height: 5vh;
+        margin-top: 15px;
+
+    }
+
+    footer {
+        display: none;
+    }
+
+    .menu-2 {
+        display: none;
+    }
+
+    .nav-menu,
+    .mobile-menu,
+    .nav-menu-2 {
+        display: none;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30vh;
+
+    }
+
+
+    .hero-content {
+        width: 90%;
+
+        h1 {
+            font-size: 1.7rem;
+            height: 6vh;
+
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .filter-menu {
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 1%;
+        height: 5vh;
+
+    }
+
+    .filter-nav {
+        height: 6vh;
+    }
+
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width:767px) {
+
+
+
+    .item-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 2%;
+    }
+
+
+
+    .item {
+        width: 90vw;
+        height: 90vh;
+
+    }
+
+    .item h5 {
+
+        height: 5vh;
+        margin-top: 15px;
+
+    }
+
+    footer {
+        display: none;
+    }
+
+    .menu-2 {
+        display: none;
+    }
+
+    .nav-menu,
+    .mobile-menu,
+    .nav-menu-2 {
+        display: none;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30vh;
+
+    }
+
+
+    .hero-content {
+        width: 90%;
+
+        h1 {
+            font-size: 1.7rem;
+            height: 6vh;
+
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+    .filter-menu {
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 1%;
+        height: 5vh;
+
+    }
+
+    .filter-nav {
+        height: 6vh;
+
+
+    }
+
+}
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) and (min-width: 992px) {}
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {}
+    
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+    
+        }
